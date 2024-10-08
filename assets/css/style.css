@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/***shared***/
+
+.colored-div{
+    background-color: #fbd4bb;
+}
+
+.center-text
+{
+    text-align: center;
+}
+
+.section-shared {
+    min-height: 300px;
+    padding: 50px 150px;
+}
+
+.heading-section
+{
+    padding: 20px;
+    font-size: 40px;
+}
+
+/***nav***/
+header nav,
+footer
+{
+    padding: 10px;
+    background-color: black;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li,
+footer ul li
+{
+    list-style: none;
+}
+
+header nav ul li a,
+footer ul li a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+/***hero***/
+header .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/assets/images/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .hero div{
+    width: 700px;
+    padding: 20px;
+    background-color: rgba(148, 148, 148,0.7);
+    border-radius: 20px;
+}
+
+header .hero div h1{
+    color: wheat;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+header .hero div p{
+    color: wheat;
+}
+/***section***/
+#about,
+#services,
+#specializations,
+#teachers,
+#plans
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .content div h3,
+#specializations .content div h3,
+#teachers .content div h3,
+#plans .content div h3,
+#teachers .content div h3
+{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+#services .content,
+#specializations .content,
+#teachers .content,
+#plans .content
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#specializations .content div,
+#teachers .content div{
+    width: 220px;
+}
+
+#teachers .content div{
+    width: 220;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/***plans details***/
+#plans .content div{
+    border-radius: 10px;
+    background-color: #f4deb3;
+    padding: 10px;
+}
+
+#plans .content div ul{
+    list-style: inside;
+} 
+
+#plans .content div .details{
+    background-color: #fce98d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #e2c847;
+} 
+
+/****form style*****/
+#contact form input , #contact form textarea{
+    width: 100%;
+    padding: 12px 0 12px 0;
+    border: 1px solid #fbd4bb;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact form div{
+    width: 400px
+}
+
+#contact form button{
+    text-align: center;
+    background-color: #313138;
+    color: white;
+    padding: 12px 50px 12px 50px ;
+    border: 1px solid #313138;
+    border-radius: 4px;
+}
+
+.contact-info{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contact-info p{
+    padding-bottom: 5px;
+}
+
+/***footer***/
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
